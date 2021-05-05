@@ -1,7 +1,7 @@
 "use strict";
 
-function showFirstMessage() {
-	console.log("ХЭЛОУ ВИЗМАЩАТКА");
+function showFirstMessage(a, b) {
+	console.log(a * b);
 }
 
-showFirstMessage();
+showFirstMessage(25, 35);
