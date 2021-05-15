@@ -1,7 +1,12 @@
 "use strict";
 
-function showFirstMessage(a, b) {
-	console.log(a * b);
+let num = 1;
+
+function showFristMessage(text) {
+	console.log(text);
+	num = 20;
 }
 
-showFirstMessage(25, 35);
+showFristMessage("Serega poday patron");
+
+console.log(num);
